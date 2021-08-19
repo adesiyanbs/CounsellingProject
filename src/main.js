@@ -1,8 +1,14 @@
 import Vue from 'vue'
+import Chakra, {CThemeProvider, CReset} from '@chakra-ui/vue'
+import router from "./router";
+// import store from "./store";
 import App from './App.vue'
 
-Vue.config.productionTip = false
+
+Vue.use(Chakra)
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  router,
+  // store,
+  render: (h) => h(CThemeProvider, [h(CReset),h(App)])
+}).$mount("#app");
