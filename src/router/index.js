@@ -10,12 +10,19 @@ import StudentTable from "../components/counsellor dash/studentTable"
 import CounsellorHome from "../components/counsellor dash/counsellorHome"
 import AdminHome from "../components/admindash/adminHome"
 import AdminDash from "../components/admindash/adminDash"
+import Register from "../components/authentication/register"
+
 Vue.use(VueRouter)
 const routes=[
     {
         path: "/",
         name: "StudentLogin",
         component: StudentLogin
+    },
+    {
+        path: "/register",
+        name: "Register",
+        component: Register
     },
     {
         path: "/counsellorlogin",

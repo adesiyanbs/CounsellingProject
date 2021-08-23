@@ -1,5 +1,5 @@
 <template>
-  <c-box bg="#FBFCFF" pt="40px" px="150px">
+  <c-box bg="#FBFCFF" h='100vh' pt="40px" px="150px">
     <c-flex w="100%" justify="space-between">
       <c-box><img src="../../assets/bowenlogo.svg" alt=""/></c-box>
       <c-box as='router-link' to='/' mt="25px">

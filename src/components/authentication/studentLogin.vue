@@ -7,9 +7,9 @@
       </c-box>
     </c-flex>
 
-    <c-box w="12%" mt="40px" mb="45px" mx="auto"
+    <c-box w="35%" mt="40px" mb="45px" mx="auto"  textAlign='center'
       ><c-text fontWeight="700" fontSize="40px" color="#267FFF"
-        >SSHUB</c-text
+        >ONLINE COUNSELLING</c-text
       ></c-box
     >
     <c-box borderRadius='5px' w="40%" mx="auto" px="37px" class='box' pt="37px">

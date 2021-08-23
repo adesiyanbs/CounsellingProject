@@ -19,7 +19,8 @@
         
       </c-box>
       </c-box>
-      <c-box borderRadius='10px' h='287px' w='90%' bg="#FEFEFE" mt='23px' pt="50px" pb="57px" boxShadow='lg' px="20px">
+      <c-box as='router-link' to='/studentlist'>
+        <c-box  borderRadius='10px' h='287px' w='90%' bg="#FEFEFE" mt='23px' pt="50px" pb="57px" boxShadow='lg' px="20px">
         <c-box px='10px' py='10px' w='50px' h='50px' mx='auto' bg='#FFF065' borderRadius='50%'><img src="../../assets/heart.svg" alt=""/></c-box>
         <c-box mt='28px' >
         <c-text mb='9px' textAlign='center' fontsize='24px' fontWeight='700' >Create Counsel</c-text>
@@ -30,6 +31,7 @@
         >
         </c-box>
         
+      </c-box>
       </c-box>
       </c-box>
     </c-box>

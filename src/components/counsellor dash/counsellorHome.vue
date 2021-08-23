@@ -12,15 +12,16 @@
         <c-box>
           <c-text fontSize="15px" fontWeight="700">Menu</c-text>
         </c-box>
-        <c-box
+        <c-box  as='router-link'
+          to='/counsellordashboard'>
+          <c-box
           borderTopLeftRadius="10px"
           borderBottomLeftRadius="10px"
           bg="#FBFCFF"
           pt="14px"
           pb="16px"
           pl="11px"
-          as='router-link'
-          to='/counsellordashboard'
+         
         >
           <c-flex w="50%" justify="space-between">
             <c-box><img src="../../assets/dash.svg" alt=""/></c-box>
@@ -30,6 +31,7 @@
               ></c-box
             >
           </c-flex>
+        </c-box>
         </c-box>
         <c-box
           borderTopLeftRadius="10px"

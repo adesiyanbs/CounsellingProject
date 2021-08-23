@@ -3,8 +3,8 @@
     <c-box w="25%" bg="rgba(0, 131, 201, 0.09)" pl="32px" py="40px">
       <c-flex>
         <c-box mr="11px"><img src="../../assets/bowenlogo.svg" alt=""/></c-box>
-        <c-text fontWeight="700" fontSize="25px" mt="20px" color="#267FFF"
-          >SSHUB</c-text
+        <c-text fontWeight="700" fontSize="16px" mt="25px" color="#267FFF"
+          >Online Counselling</c-text
         >
       </c-flex>
       <c-divider mb="15px" mt="23px" />
