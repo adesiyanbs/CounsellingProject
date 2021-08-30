@@ -33,8 +33,10 @@
         <c-button as='router-link' to='/dashboard' mb='53px' h='50px' color='white' w='100%' borderRadius='12px' bg='#267FFF' fontSize='26px' fontWeight='400' >Register</c-button> 
       </c-form-control>
     </c-box>
-    <c-box mt='32px' textAlign='center'>
-        <c-text>Forgot Password? Reset Password</c-text>
+    <c-box as='router-link' to='/'>
+      <c-box mt='25px' mb='10px' textAlign='center'>
+        <c-text>Already have an account? Log In</c-text>
+    </c-box>
     </c-box>
   </c-box>
 </template>

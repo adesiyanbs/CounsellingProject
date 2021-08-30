@@ -37,9 +37,9 @@
         <c-button as='router-link' to='/counsellordashboard' mb='53px' h='50px' color='white' w='100%' borderRadius='12px' bg='#267FFF' fontSize='26px' fontWeight='400' >Login</c-button> 
       </c-form-control>
     </c-box>
-    <c-box mt='32px' textAlign='center'>
+    <!-- <c-box mt='32px' textAlign='center'>
         <c-text>Forgot Password? Reset Password</c-text>
-    </c-box>
+    </c-box> -->
   </c-box>
 </template>
 <script>
