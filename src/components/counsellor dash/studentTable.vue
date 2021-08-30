@@ -39,8 +39,18 @@
             <c-text fontSize='16px' fontWeight='400' w='15%'>19</c-text>
             <c-text fontSize='16px' fontWeight='400' w='10%'>CMA</c-text>
         </c-flex>
+
+        <c-flex mt='10px' w='100%'>
+            <c-text fontSize='16px' fontWeight='400' w='10%'>2</c-text>
+            <c-text fontSize='16px' fontWeight='400' w='20%'>sse/001/01010</c-text>
+            <c-text fontSize='16px' fontWeight='400' w='15%'>300</c-text>
+            <c-text fontSize='16px' fontWeight='400' w='15%'>Male</c-text>
+            <c-text fontSize='16px' fontWeight='400' w='15%'>Abeokuta</c-text>
+            <c-text fontSize='16px' fontWeight='400' w='15%'>29</c-text>
+            <c-text fontSize='16px' fontWeight='400' w='10%'>CMA</c-text>
+        </c-flex>
     </c-box>
-    <c-box borderRadius='md' h='inherit' bg='' px='20px' py='20px' boxShadow='md' mt='24px' w='100%'>
+    <c-box borderRadius='md' h='inherit' bg='' px='20px' py='20px' boxShadow='md' mt='164px' w='100%'>
         <c-flex w='100%'>
             <c-text fontSize='20px' fontWeight='700' w='10%'>S/N</c-text>
             <c-text fontSize='20px' fontWeight='700' w='20%'>State</c-text>
